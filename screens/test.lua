@@ -1,4 +1,6 @@
 local class = require('lib.hump.class')
+local keys = require('lib.keys')
+
 local Box = require('ui.box')
 
 local TestScreen = class {}
@@ -23,7 +25,7 @@ function TestScreen:draw()
 end
 
 function TestScreen:keypressed(key)
-	if key == 'space' then
+	if key == keys.A then
 		self.screen:view('/')
 	end
 end
