@@ -37,7 +37,7 @@ The Screen-Manager is pretty easy! It basically works with paths. Just like a we
 
 Register a new screen.
 
-#### Arguments
+##### Arguments:
 
 ``path`` (string) - The path of the screen. For example ``/menu/settings``
 ``screen`` (table) - The screen's class. Get's automatically initialized by the Screen-Manager. (Look in the ``main.lua`` file)
@@ -46,7 +46,7 @@ Register a new screen.
 
 Switch to a screen.
 
-#### Arguments
+##### Arguments:
 
 ``path`` (string) - The path of the screen to switch to. Same as in ``ScreenManager.register()``.
 
