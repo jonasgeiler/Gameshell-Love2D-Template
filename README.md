@@ -39,8 +39,8 @@ Register a new screen.
 
 ##### Arguments:
 
-``path`` (string) - The path of the screen. For example ``/menu/settings``
-``screen`` (table) - The screen's class. Get's automatically initialized by the Screen-Manager. (Look in the ``main.lua`` file)
+- ``path`` (string) - The path of the screen. For example ``/menu/settings``
+- ``screen`` (table) - The screen's class. Get's automatically initialized by the Screen-Manager. (Look in the ``main.lua`` file)
 
 **ScreenManager.view(path, ...)**
 
@@ -48,7 +48,7 @@ Switch to a screen.
 
 ##### Arguments:
 
-``path`` (string) - The path of the screen to switch to. Same as in ``ScreenManager.register()``.
+- ``path`` (string) - The path of the screen to switch to. Same as in ``ScreenManager.register()``.
 
 *All arguments after ``path`` are being passed to the ``activate()`` method of the screen class you are switching to.*
 
