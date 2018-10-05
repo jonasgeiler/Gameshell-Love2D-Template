@@ -9,6 +9,13 @@
 - Object-oriented coding with hump.class!
 - Compatibility with Löve2D v11.x colors! No more struggeling with 0-1 colors! Just use a 0-255 range everywhere!
 
+## Install
+
+Just clone this repository:
+```
+$ git clone https://github.com/Skayo/Gameshell-Love2D-Template.git
+```
+
 ## Usage
 
 ### Directory Structure
@@ -20,13 +27,6 @@ screens/ -  All your game screens for the Screen-Manager! I have provided two ex
 ui/      -  All your UI Elements. Like menus and other reusable stuff. I have provided an example file.
 conf.lua -  Löve2D configuration. Set things like window title or disable/enable specific modules.
 main.lua -  The main file that starts the whole thing.
-```
-
-### Install
-
-Just clone this repository:
-```
-$ git clone https://github.com/Skayo/Gameshell-Love2D-Template.git
 ```
 
 ### Screen Manager
@@ -61,7 +61,7 @@ Useful for loading stuff.
 > Note that the ``init()`` method of a screen class gets called at love.load(). So you have to decide what to load/initialize in ``activate()`` and what to load/initialize in ``init()``!
 
 
-### Bugs / Issues / Feature-Requests
+## Bugs / Issues / Feature-Requests
 
 If any bugs or issues occur while developing, report them in the [issue tracker](https://github.com/Skayo/Gameshell-Love2D-Template/issues)!
 If you feel like you are missing a feature, you can also create an issue! I'm open for any kind of suggestions!
