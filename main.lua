@@ -14,8 +14,8 @@ love.graphics.present()
 ]]--
 
 
--- this fixes compatibility for LÖVE 0.10.2 colors (0-255 instead of 0-1)
---require('lib.compatibility')
+-- this fixes compatibility for LÖVE v11.x colors (0-255 instead of 0-1)
+require('lib.compatibility')
 --
 
 -- Load Libraries
